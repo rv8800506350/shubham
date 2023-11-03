@@ -1,0 +1,88 @@
+.bg-footer-one {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background: #0e1422;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+.bg-footer-one::after {
+  content: "";
+  position: absolute;
+  background-image: url(img/01.svg);
+  height: 450px;
+  width: 450px;
+  right: -3%;
+  background-repeat: no-repeat;
+  bottom: -5%;
+}
+@media only screen and (min-width: 1200px) and (max-width: 1599px) {
+  .bg-footer-one::after {
+    right: -15%;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  .bg-footer-one::after {
+    right: -15%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .bg-footer-one::after {
+    left: 53%;
+  }
+}
+.bg-footer-one::before {
+  content: "";
+  position: absolute;
+  background-image: url(img/02.png);
+  height: 800px;
+  width: 823px;
+  left: -16%;
+  background-position: center;
+  bottom: -13%;
+  background-size: cover;
+  z-index: -1;
+  background-repeat: no-repeat;
+}
+@media only screen and (min-width: 1200px) and (max-width: 1599px) {
+  .bg-footer-one::before {
+    left: -25%;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  .bg-footer-one::before {
+    left: -25%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .bg-footer-one::before {
+    left: -48%;
+  }
+}
+.bg-footer-one .bg-shape-f1 {
+  position: relative;
+  z-index: 1;
+}
+.bg-footer-one .bg-shape-f1::after {
+  position: absolute;
+  background-image: url(img/03.png);
+  content: "";
+  height: 500px;
+  width: 523px;
+  left: -25%;
+  top: -20%;
+  z-index: -1;
+  background-repeat: no-repeat;
+}
+@media only screen and (min-width: 1200px) and (max-width: 1599px) {
+  .bg-footer-one .bg-shape-f1::after {
+    left: -30%;
+    top: -32%;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  .bg-footer-one .bg-shape-f1::after {
+    left: -30%;
+    top: -32%;
+  }
+}
